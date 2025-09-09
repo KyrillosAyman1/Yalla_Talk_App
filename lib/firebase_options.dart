@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCFA9lb4gtFf_kk-af9Ueg3gjSu5qEYJ7w',
-    appId: '1:711580164358:web:38a363b3f39fd8e1e03e87',
-    messagingSenderId: '711580164358',
-    projectId: 'yalla-talk-app-95f4d',
-    authDomain: 'yalla-talk-app-95f4d.firebaseapp.com',
-    storageBucket: 'yalla-talk-app-95f4d.firebasestorage.app',
-    measurementId: 'G-V226B0KPBS',
+    apiKey: 'AIzaSyA7OjHZuacMQL5DmeqxDQDM_T-3PY_PFWk',
+    appId: '1:872514974182:web:4532babeda6827811ce627',
+    messagingSenderId: '872514974182',
+    projectId: 'yalla-talk-99138',
+    authDomain: 'yalla-talk-99138.firebaseapp.com',
+    storageBucket: 'yalla-talk-99138.firebasestorage.app',
+    measurementId: 'G-R2RMS7HQG7',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCpxN2pRzzQThKHIAJUUdLvPLFiBKM-33g',
-    appId: '1:711580164358:android:c380d0fc4696d743e03e87',
-    messagingSenderId: '711580164358',
-    projectId: 'yalla-talk-app-95f4d',
-    storageBucket: 'yalla-talk-app-95f4d.firebasestorage.app',
+    apiKey: 'AIzaSyA-gmNTLKCMfrSC0gVZLIke3PVanz76dks',
+    appId: '1:872514974182:android:55cf33749a0ef3e61ce627',
+    messagingSenderId: '872514974182',
+    projectId: 'yalla-talk-99138',
+    storageBucket: 'yalla-talk-99138.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyC7sx8M7vVT-xD6y5y_rqUaBVrnk_stKE0',
-    appId: '1:711580164358:ios:1290a3614cbd0cdde03e87',
-    messagingSenderId: '711580164358',
-    projectId: 'yalla-talk-app-95f4d',
-    storageBucket: 'yalla-talk-app-95f4d.firebasestorage.app',
+    apiKey: 'AIzaSyAsgQRKY8tFyLp22Z7dm_yceHwOJyh9X38',
+    appId: '1:872514974182:ios:1a9a41a2274d743c1ce627',
+    messagingSenderId: '872514974182',
+    projectId: 'yalla-talk-99138',
+    storageBucket: 'yalla-talk-99138.firebasestorage.app',
     iosBundleId: 'com.example.yallaTalkApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyC7sx8M7vVT-xD6y5y_rqUaBVrnk_stKE0',
-    appId: '1:711580164358:ios:1290a3614cbd0cdde03e87',
-    messagingSenderId: '711580164358',
-    projectId: 'yalla-talk-app-95f4d',
-    storageBucket: 'yalla-talk-app-95f4d.firebasestorage.app',
+    apiKey: 'AIzaSyAsgQRKY8tFyLp22Z7dm_yceHwOJyh9X38',
+    appId: '1:872514974182:ios:1a9a41a2274d743c1ce627',
+    messagingSenderId: '872514974182',
+    projectId: 'yalla-talk-99138',
+    storageBucket: 'yalla-talk-99138.firebasestorage.app',
     iosBundleId: 'com.example.yallaTalkApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCFA9lb4gtFf_kk-af9Ueg3gjSu5qEYJ7w',
-    appId: '1:711580164358:web:01636576786b0e51e03e87',
-    messagingSenderId: '711580164358',
-    projectId: 'yalla-talk-app-95f4d',
-    authDomain: 'yalla-talk-app-95f4d.firebaseapp.com',
-    storageBucket: 'yalla-talk-app-95f4d.firebasestorage.app',
-    measurementId: 'G-ZN7PL1CCSZ',
+    apiKey: 'AIzaSyA7OjHZuacMQL5DmeqxDQDM_T-3PY_PFWk',
+    appId: '1:872514974182:web:ed16cadf02a6b6de1ce627',
+    messagingSenderId: '872514974182',
+    projectId: 'yalla-talk-99138',
+    authDomain: 'yalla-talk-99138.firebaseapp.com',
+    storageBucket: 'yalla-talk-99138.firebasestorage.app',
+    measurementId: 'G-SJ4LKQNBV9',
   );
+
 }

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "711580164358",
-    "project_id": "yalla-talk-app-95f4d",
-    "storage_bucket": "yalla-talk-app-95f4d.firebasestorage.app"
+    "project_number": "872514974182",
+    "project_id": "yalla-talk-99138",
+    "storage_bucket": "yalla-talk-99138.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:711580164358:android:c380d0fc4696d743e03e87",
+        "mobilesdk_app_id": "1:872514974182:android:55cf33749a0ef3e61ce627",
         "android_client_info": {
           "package_name": "com.example.yalla_talk_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCpxN2pRzzQThKHIAJUUdLvPLFiBKM-33g"
+          "current_key": "AIzaSyA-gmNTLKCMfrSC0gVZLIke3PVanz76dks"
         }
       ],
       "services": {

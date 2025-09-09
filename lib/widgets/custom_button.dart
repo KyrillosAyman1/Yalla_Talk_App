@@ -30,7 +30,7 @@ class CustomButton extends StatelessWidget {
 
         decoration: BoxDecoration(
           border: hasBorder ? Border.all(color: Colors.white, width: 2) : null,
-          borderRadius: BorderRadius.all(Radius.circular(50)),
+          borderRadius: BorderRadius.all(Radius.circular(30)),
           gradient: LinearGradient(
             colors: colors,
             begin: Alignment.topLeft,

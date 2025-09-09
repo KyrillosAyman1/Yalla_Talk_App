@@ -38,6 +38,22 @@ dependencies:
   firebase_auth: ^5.6.2
   modal_progress_hud_nsn: ^0.5.1
   cloud_firestore: ^5.6.12
+  iconsax: ^0.0.8
+  flutter_colorpicker: ^1.1.0
+  qr_flutter: ^4.1.0
+  curved_navigation_bar: ^1.0.6
+  convex_bottom_bar: ^3.2.0
+  uuid: ^4.5.1
+  intl: ^0.20.2
+  image_picker: ^1.2.0
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.3
+  supabase_flutter: ^2.10.0
+  cached_network_image: ^3.4.1
+  photo_view: ^0.15.0
+  flutter_native_splash: ^2.4.6
+  flutter_launcher_icons: ^0.14.4
+
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +70,12 @@ dev_dependencies:
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter packages.
+
+flutter_icons:
+  android: true
+  ios: true
+  fill: true 
+  image_path: "assets/images/k4.png"
 flutter:
 
   # The following line ensures that the Material Icons font is
@@ -105,3 +127,10 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_native_splash:
+  image: assets/images/2222.png
+  color: "#0553b1"
+  android: true
+  ios: true
+
