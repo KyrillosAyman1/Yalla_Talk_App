@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:yalla_talk_app/models/user_model.dart';
 import 'package:yalla_talk_app/pages/chat/widgets/custom_card_profile.dart';
-import 'package:yalla_talk_app/utils/date_time.dart';
+
 import 'package:yalla_talk_app/utils/photo_view_page.dart';
 
 class ProfileDetails extends StatelessWidget {
