@@ -1,5 +1,9 @@
 # 📱 Yalla Talk App
 
+<p align="center">
+  <img src="assets/Screenshots/aaa.png" alt="App Logo" width="150"/>
+</p>
+
 A real-time **chat application** built with **Flutter**, integrating **Firebase** and **Supabase** to provide authentication, messaging, group chats, and more.  
 This project was developed as a learning challenge over 2 months to explore how chat apps like WhatsApp & Telegram handle messaging, authentication, and state management. 🚀
 
@@ -46,6 +50,19 @@ This project was developed as a learning challenge over 2 months to explore how 
   - `cached_network_image`
   - `flutter_native_splash`
   - `photo_view`
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="assets/Screenshots/3.png" alt="Screenshot 1" width="250"/>
+  <img src="assets/Screenshots/4.png" alt="Screenshot 2" width="250"/>
+  <img src="assets/Screenshots/5.png" alt="Screenshot 3" width="250"/>
+  <img src="assets/Screenshots/6.png" alt="Screenshot 4" width="250"/>
+  <img src="assets/Screenshots/7.png" alt="Screenshot 5" width="250"/>
+  <img src="assets/Screenshots/aaa.png" alt="Screenshot 6" width="250"/>
+</p>
 
 ---
 
