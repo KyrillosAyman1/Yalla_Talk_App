@@ -58,6 +58,7 @@ This project was developed as a learning challenge over 2 months to explore how 
   <img src="assets/Screenshots/6.png" alt="Screenshot 4" width="250"/>
   <img src="assets/Screenshots/7.png" alt="Screenshot 5" width="250"/>
   <img src="assets/Screenshots/aaa.png" alt="Screenshot 6" width="250"/>
+  <img src="assets/Screenshots/Untitled design (29).png" alt="Screenshot 7" width="250"/>
 </p>
 
 ---
