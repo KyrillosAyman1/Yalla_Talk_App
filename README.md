@@ -1,55 +1,102 @@
-# 🛍️ Trendo App
+# 📱 Yalla Talk App
 
-A modern Flutter E-Commerce application that provides a smooth shopping experience with product browsing, category filtering, favorites, cart management, and product updates using REST APIs.
+A real-time **chat application** built with **Flutter**, integrating **Firebase** and **Supabase** to deliver a seamless messaging experience similar to WhatsApp & Telegram.
 
----
-
-# 📸 App Preview
-
-![Trendo App](assets/ScreenShots/trendo.png)
+This project was developed over 2 months as a learning journey to master real-time systems, authentication, and scalable app architecture. 🚀
 
 ---
 
-# 📱 Features
+# 📸 App Screenshots
 
-✅ Display products from REST API  
-✅ Browse products by categories  
-✅ Search products by name  
-✅ Product details screen  
-✅ Add & remove products from cart  
-✅ Add & remove products from favorites  
-✅ Update product information  
-✅ Responsive and clean UI  
-✅ Splash screen  
-✅ Reusable custom widgets  
-✅ State management using Bloc/Cubit  
+| Login | Chat | Profile |
+|------|------|--------|
+| ![1](assets/Screenshots/3.png) | ![2](assets/Screenshots/4.png) | ![3](assets/Screenshots/5.png) |
+
+| Groups | Contacts | Settings |
+|------|----------|----------|
+| ![4](assets/Screenshots/6.png) | ![5](assets/Screenshots/7.png) | ![6](assets/Screenshots/aaa.png) |
 
 ---
 
-# 🛠️ Tech Stack
+# ✨ Features
 
-- Flutter
-- Dart
-- Bloc / Cubit
-- REST API
-- HTTP Package
-- Lottie Animations
+## 🔐 Authentication
+- Signup / Login with Email & Password
+- Email verification
+- Form validation & error handling
+
+## 👤 User Profile
+- Edit name, bio, profile image
+- Last seen status
+- Profile customization
+
+## 💬 Chat System
+- Real-time private messaging
+- Group chats with admins
+- Read receipts
+- Online / last seen indicators
+- Delete messages (soft delete UI)
+
+## 👥 Groups
+- Create groups
+- Add / remove members
+- Promote / demote admins
+
+## 🖼 Media Support
+- Send & receive images
+- Supabase Storage integration
+- Cached image loading
+
+## ⚙️ UI/UX
+- Dark & Light themes
+- Clean Material Design UI
+- Custom dialogs & snackbars
+- Smooth navigation
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+- Flutter (Dart)
+- Provider / Bloc
 - Material Design
 
+## Backend & Services
+- Firebase Authentication
+- Firebase Firestore (Realtime Database)
+- Supabase (Storage + Database utilities)
+
+## Packages Used
+- firebase_core
+- firebase_auth
+- cloud_firestore
+- supabase_flutter
+- provider
+- uuid
+- cached_network_image
+- flutter_native_splash
+- photo_view
+
 ---
 
-# 🧱 Project Structure
+# 🧱 Project Architecture
 
 ```bash
 lib/
 │
-├── cubit/
-├── helper/
+├── cubit/ or provider/
 ├── models/
-├── routes/
-├── screens/
 ├── services/
+├── screens/
+│   ├── auth/
+│   ├── chat/
+│   ├── groups/
+│   ├── profile/
+│   └── home/
+│
 ├── widgets/
+├── helper/
 └── main.dart
 ```
 
@@ -58,34 +105,34 @@ lib/
 # 🚀 Getting Started
 
 ## Prerequisites
-
-- Flutter SDK installed
-- Android Studio or VS Code
-- Emulator or physical device
+- Flutter SDK installed  
+- Firebase project setup  
+- Supabase project setup  
+- Android Studio / VS Code  
 
 ---
 
 ## Installation
 
-### Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/trendo_app.git
+git clone https://github.com/your-username/yalla_talk_app.git
 ```
 
-### Navigate to project folder
+### 2️⃣ Navigate to project
 
 ```bash
-cd trendo_app
+cd yalla_talk_app
 ```
 
-### Install dependencies
+### 3️⃣ Install dependencies
 
 ```bash
 flutter pub get
 ```
 
-### Run the application
+### 4️⃣ Run the app
 
 ```bash
 flutter run
@@ -93,40 +140,27 @@ flutter run
 
 ---
 
-# 🌐 API Used
+# 💡 What I Learned
 
-This project uses:
+This project helped me understand:
 
-- Fake Store API
-
-```bash
-https://fakestoreapi.com/
-```
-
----
-
-# 🎯 Learning Goals
-
-This project was built to improve my skills in:
-
-- State Management with Bloc/Cubit
-- API Integration
-- Clean UI Development
-- Code Organization
-- Reusable Components
-- Flutter Application Architecture
+- Real-time database systems (Firestore)
+- Authentication flows
+- Scalable Flutter architecture
+- State management in large apps
+- Backend integration (Firebase + Supabase)
+- Building production-level chat apps
 
 ---
 
 # 🔮 Future Improvements
 
-- Firebase Authentication
-- Payment Gateway Integration
-- Admin Dashboard
-- Dark Mode
-- Local Database & Caching
-- Product Reviews
-- Push Notifications
+- 🔔 Push Notifications
+- 🎤 Voice & Video Calls
+- 🧠 AI chat assistant
+- ☁️ Full cloud sync optimization
+- 📊 Admin dashboard for chats
+- 🔒 End-to-end encryption
 
 ---
 
@@ -134,7 +168,7 @@ This project was built to improve my skills in:
 
 ## Kyrillos Ayman
 
-Flutter Developer passionate about building modern mobile applications using Flutter.
+Flutter Developer passionate about building real-time scalable mobile applications.
 
 ---
 
