@@ -154,4 +154,8 @@ Flutter Developer passionate about building real-time scalable mobile applicatio
 
 # ⭐ Support
 
+<<<<<<< HEAD
 If you like this project, don't forget to give it a ⭐ on GitHub!
+=======
+If you like this project, don't forget to give it a ⭐ on GitHub!
+>>>>>>> 4b0360a3aa8da985b262eace3daab93a454ace96
