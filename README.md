@@ -8,50 +8,54 @@ This project was developed over 2 months as a learning journey to master real-ti
 
 # 📸 App Screenshots
 
-| Login | Chat | Profile |
-|------|------|--------|
-| ![1](assets/Screenshots/3.png) | ![2](assets/Screenshots/4.png) | ![3](assets/Screenshots/5.png) |
+![App Preview](assets/Screenshots/Untitled%20design%20(29).png)
 
-| Groups | Contacts | Settings |
-|------|----------|----------|
-| ![4](assets/Screenshots/6.png) | ![5](assets/Screenshots/7.png) | ![6](assets/Screenshots/aaa.png) |
+![App Preview](assets/Screenshots/3.png)
+
+![App Preview](assets/Screenshots/4.png)
+
+![App Preview](assets/Screenshots/5.png)
+
+![App Preview](assets/Screenshots/6.png)
+
+![App Preview](assets/Screenshots/7.png)
+
+![App Preview](assets/Screenshots/aaa.png)
 
 ---
 
 # ✨ Features
 
 ## 🔐 Authentication
-- Signup / Login with Email & Password
-- Email verification
-- Form validation & error handling
+- Signup / Login with Email & Password  
+- Email verification  
+- Form validation & error handling  
 
 ## 👤 User Profile
-- Edit name, bio, profile image
-- Last seen status
-- Profile customization
+- Edit name, bio, profile image  
+- Last seen status  
 
 ## 💬 Chat System
-- Real-time private messaging
-- Group chats with admins
-- Read receipts
-- Online / last seen indicators
-- Delete messages (soft delete UI)
+- Real-time private messaging  
+- Group chats with admins  
+- Read receipts  
+- Online / last seen indicators  
+- Delete messages  
 
 ## 👥 Groups
-- Create groups
-- Add / remove members
-- Promote / demote admins
+- Create groups  
+- Add / remove members  
+- Promote / demote admins  
 
 ## 🖼 Media Support
-- Send & receive images
-- Supabase Storage integration
-- Cached image loading
+- Send & receive images  
+- Supabase Storage integration  
+- Cached image loading  
 
 ## ⚙️ UI/UX
-- Dark & Light themes
-- Clean Material Design UI
-- Custom dialogs & snackbars
-- Smooth navigation
+- Dark & Light themes  
+- Clean Material Design UI  
+- Custom dialogs & snackbars  
 
 ---
 
@@ -68,37 +72,15 @@ This project was developed over 2 months as a learning journey to master real-ti
 - Supabase (Storage + Database utilities)
 
 ## Packages Used
-- firebase_core
-- firebase_auth
-- cloud_firestore
-- supabase_flutter
-- provider
-- uuid
-- cached_network_image
-- flutter_native_splash
-- photo_view
-
----
-
-# 🧱 Project Architecture
-
-```bash
-lib/
-│
-├── cubit/ or provider/
-├── models/
-├── services/
-├── screens/
-│   ├── auth/
-│   ├── chat/
-│   ├── groups/
-│   ├── profile/
-│   └── home/
-│
-├── widgets/
-├── helper/
-└── main.dart
-```
+- firebase_core  
+- firebase_auth  
+- cloud_firestore  
+- supabase_flutter  
+- provider  
+- uuid  
+- cached_network_image  
+- flutter_native_splash  
+- photo_view  
 
 ---
 
@@ -142,25 +124,23 @@ flutter run
 
 # 💡 What I Learned
 
-This project helped me understand:
-
-- Real-time database systems (Firestore)
-- Authentication flows
-- Scalable Flutter architecture
-- State management in large apps
-- Backend integration (Firebase + Supabase)
-- Building production-level chat apps
+- Real-time systems with Firestore  
+- Authentication flows  
+- Scalable Flutter architecture  
+- State management  
+- Firebase + Supabase integration  
+- Building production-level chat apps  
 
 ---
 
 # 🔮 Future Improvements
 
-- 🔔 Push Notifications
-- 🎤 Voice & Video Calls
-- 🧠 AI chat assistant
-- ☁️ Full cloud sync optimization
-- 📊 Admin dashboard for chats
-- 🔒 End-to-end encryption
+- 🔔 Push Notifications  
+- 🎤 Voice & Video Calls  
+- 🧠 AI chat assistant  
+- ☁️ Cloud sync optimization  
+- 📊 Admin dashboard  
+- 🔒 End-to-end encryption  
 
 ---
 
